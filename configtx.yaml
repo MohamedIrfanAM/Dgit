@@ -1,0 +1,15 @@
+Organizations:
+  - Name: CETOrg
+    ID: CETOrgMSP
+    MSPDir: crypto-config/peerOrganizations/cet.ac.in/msp
+    Policies: ...
+    AnchorPeers:
+      - Host: peer0.user1.cet.ac.in
+        Port: 7051
+      - Host: peer0.user2.cet.ac.in
+        Port: 7051
+
+Orderer: &OrdererDefaults
+  OrdererType: solo
+  Addresses:
+    - orderer.cet.ac.in:7050

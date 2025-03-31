@@ -1,0 +1,8 @@
+PeerOrgs:
+  - Name: CETOrg
+    Domain: cet.ac.in
+    EnableNodeOUs: true
+    Template:
+      Count: 2
+    Users:
+      Count: 2
